@@ -8,7 +8,8 @@ grid = [['.', '.', '.', '.', '.', '.'],
         ['.', 'O', 'O', '.', '.', '.'],
         ['.', '.', '.', '.', '.', '.']]
 
-height = len(grid[0])
+for i in grid:
+    height = len(i)
 width = len(grid)
 for y in range(height):
     for x in range(width):
